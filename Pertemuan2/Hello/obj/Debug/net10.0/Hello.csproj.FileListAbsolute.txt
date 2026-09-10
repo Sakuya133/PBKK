@@ -1,0 +1,14 @@
+/home/tsakuya/PBKK/Pertemuan2/Hello/bin/Debug/net10.0/Hello
+/home/tsakuya/PBKK/Pertemuan2/Hello/bin/Debug/net10.0/Hello.deps.json
+/home/tsakuya/PBKK/Pertemuan2/Hello/bin/Debug/net10.0/Hello.runtimeconfig.json
+/home/tsakuya/PBKK/Pertemuan2/Hello/bin/Debug/net10.0/Hello.dll
+/home/tsakuya/PBKK/Pertemuan2/Hello/bin/Debug/net10.0/Hello.pdb
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/Hello.GeneratedMSBuildEditorConfig.editorconfig
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/Hello.AssemblyInfoInputs.cache
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/Hello.AssemblyInfo.cs
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/Hello.csproj.CoreCompileInputs.cache
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/Hello.dll
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/refint/Hello.dll
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/Hello.pdb
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/Hello.genruntimeconfig.cache
+/home/tsakuya/PBKK/Pertemuan2/Hello/obj/Debug/net10.0/ref/Hello.dll

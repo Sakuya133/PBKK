@@ -1,0 +1,14 @@
+/home/tsakuya/PBKK/DataMahasiswa (2)/bin/Debug/net8.0/DataMahasiswa
+/home/tsakuya/PBKK/DataMahasiswa (2)/bin/Debug/net8.0/DataMahasiswa.deps.json
+/home/tsakuya/PBKK/DataMahasiswa (2)/bin/Debug/net8.0/DataMahasiswa.runtimeconfig.json
+/home/tsakuya/PBKK/DataMahasiswa (2)/bin/Debug/net8.0/DataMahasiswa.dll
+/home/tsakuya/PBKK/DataMahasiswa (2)/bin/Debug/net8.0/DataMahasiswa.pdb
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/DataMahasiswa.GeneratedMSBuildEditorConfig.editorconfig
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/DataMahasiswa.AssemblyInfoInputs.cache
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/DataMahasiswa.AssemblyInfo.cs
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/DataMahasiswa.csproj.CoreCompileInputs.cache
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/DataMahasiswa.dll
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/refint/DataMahasiswa.dll
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/DataMahasiswa.pdb
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/DataMahasiswa.genruntimeconfig.cache
+/home/tsakuya/PBKK/DataMahasiswa (2)/obj/Debug/net8.0/ref/DataMahasiswa.dll

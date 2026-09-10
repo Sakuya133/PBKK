@@ -1,0 +1,1 @@
+https://app.notion.com/p/Pertemuan-2-5025241218-Ida-Bagus-Gde-Dimas-Sutha-Maha-3d74a50796438020a73ce4171b29557d

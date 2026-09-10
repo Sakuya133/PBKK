@@ -40,3 +40,4 @@
 /home/tsakuya/PBKK/Pertemuan2/DataMahasiswa/obj/Debug/net10.0/DataMahasiswa.pdb
 /home/tsakuya/PBKK/Pertemuan2/DataMahasiswa/obj/Debug/net10.0/DataMahasiswa.genruntimeconfig.cache
 /home/tsakuya/PBKK/Pertemuan2/DataMahasiswa/obj/Debug/net10.0/ref/DataMahasiswa.dll
+/home/tsakuya/PBKK/Pertemuan2/DataMahasiswa/obj/Debug/net10.0/DataMahasiswa.sourcelink.json

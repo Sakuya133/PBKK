@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataMahasiswa
 {
-    // Class untuk merepresentasikan data mahasiswa
+    
     class Mahasiswa
     {
         public string NIM { get; set; }
@@ -12,7 +12,7 @@ namespace DataMahasiswa
         public string Prodi { get; set; }
         public double IPK { get; set; }
 
-        // Constructor
+        
         public Mahasiswa(string nim, string nama, string prodi, double ipk)
         {
             NIM = nim;
@@ -24,10 +24,10 @@ namespace DataMahasiswa
 
     class Program
     {
-        // List untuk menyimpan data mahasiswa
+        
         static List<Mahasiswa> daftarMahasiswa = new List<Mahasiswa>();
 
-        // Ubah warna di sini untuk menyesuaikan tema seluruh aplikasi.
+      
         const ConsoleColor WarnaBingkai = ConsoleColor.Cyan;
         const ConsoleColor WarnaTambah = ConsoleColor.Green;
         const ConsoleColor WarnaDaftar = ConsoleColor.Blue;
@@ -40,7 +40,7 @@ namespace DataMahasiswa
         {
             Console.OutputEncoding = new UTF8Encoding(false);
 
-            // finally memastikan warna terminal kembali normal saat program selesai.
+            
             try
             {
                 if (!Console.IsOutputRedirected)
@@ -56,7 +56,7 @@ namespace DataMahasiswa
                     TampilkanMenu();
                     string input = BacaInput("Pilihan", WarnaBingkai);
 
-                    // Ctrl+D / akhir masukan: keluar tanpa mengulang terus-menerus.
+                   
                     if (input == null)
                     {
                         break;
@@ -116,9 +116,7 @@ namespace DataMahasiswa
             }
         }
 
-        // ==========================================
-        // METHOD MENAMPILKAN MENU
-        // ==========================================
+        
         static void TampilkanMenu()
         {
             BersihkanLayar();
@@ -144,9 +142,7 @@ namespace DataMahasiswa
             Console.WriteLine();
         }
 
-        // ==========================================
-        // METHOD TAMBAH MAHASISWA
-        // ==========================================
+        
         static void TambahMahasiswa()
         {
             TampilkanHeader("[+] TAMBAH MAHASISWA", "Masukkan identitas dan IPK mahasiswa.", WarnaTambah);
@@ -185,9 +181,7 @@ namespace DataMahasiswa
             TulisBarisWarna("  [OK] Data mahasiswa berhasil ditambahkan.", ConsoleColor.Green);
         }
 
-        // ==========================================
-        // METHOD MENAMPILKAN DATA
-        // ==========================================
+        
         static void TampilkanMahasiswa()
         {
             TampilkanHeader("[=] DAFTAR MAHASISWA", "Total data: " + daftarMahasiswa.Count + " mahasiswa", WarnaDaftar);
@@ -214,9 +208,7 @@ namespace DataMahasiswa
             TulisBarisWarna("  Gunakan menu Cari untuk melihat data lengkap.", ConsoleColor.Gray);
         }
 
-        // ==========================================
-        // METHOD MENCARI MAHASISWA
-        // ==========================================
+        
         static void CariMahasiswa()
         {
             TampilkanHeader("[?] CARI MAHASISWA", "Temukan mahasiswa berdasarkan NIM.", WarnaCari);
@@ -252,9 +244,7 @@ namespace DataMahasiswa
             }
         }
 
-        // ==========================================
-        // METHOD MENGHAPUS MAHASISWA
-        // ==========================================
+        
         static void HapusMahasiswa()
         {
             TampilkanHeader("[-] HAPUS MAHASISWA", "Hapus data mahasiswa berdasarkan NIM.", WarnaHapus);
@@ -287,11 +277,7 @@ namespace DataMahasiswa
             }
         }
 
-        // ==========================================
-        // HELPER TAMPILAN: WARNA, PANEL, DAN INPUT
-        // ==========================================
-
-        // Warna hanya berlaku untuk teks ini, lalu kembali ke warna sebelumnya.
+       
         static void TulisWarna(string teks, ConsoleColor warna)
         {
             if (Console.IsOutputRedirected)
@@ -348,7 +334,7 @@ namespace DataMahasiswa
             TulisWarna("  ║", WarnaBingkai);
             Console.Write("  ");
 
-            // Nomor menu memakai warna latar seperti tombol pada referensi.
+           
             if (!Console.IsOutputRedirected)
             {
                 Console.BackgroundColor = warna;
@@ -394,7 +380,7 @@ namespace DataMahasiswa
             TulisBarisWarna(": " + nilai, ConsoleColor.White);
         }
 
-        // Memendekkan tampilan kolom, tanpa mengubah data di dalam objek.
+       
         static string Kolom(string nilai, int lebar)
         {
             nilai = nilai ?? "";

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataMahasiswa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66705d5eca70ee27f0c034aa2a04752e59e58d1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+767c5b3f0d1ad1b9c5b1281456c265c34b252946")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataMahasiswa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataMahasiswa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

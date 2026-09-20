@@ -1,0 +1,101 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="LinuxCalculator.MainWindow"
+        Title="Calculator"
+        Width="420"
+        Height="650"
+        MinWidth="380"
+        MinHeight="600"
+        WindowStartupLocation="CenterScreen"
+        Background="#0B1220"
+        KeyDown="SaatTombolKeyboardDitekan">
+
+  <Window.Styles>
+    <Style Selector="Button">
+      <Setter Property="Margin" Value="5" />
+      <Setter Property="MinHeight" Value="72" />
+      <Setter Property="FontSize" Value="26" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="CornerRadius" Value="10" />
+      <Setter Property="Foreground" Value="#FFFFFF" />
+      <Setter Property="HorizontalAlignment" Value="Stretch" />
+      <Setter Property="VerticalAlignment" Value="Stretch" />
+      <Setter Property="HorizontalContentAlignment" Value="Center" />
+      <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+
+    <Style Selector="Button.angka">
+      <Setter Property="Background" Value="#1E3A5F" />
+    </Style>
+
+    <Style Selector="Button.operator">
+      <Setter Property="Background" Value="#2563EB" />
+    </Style>
+
+    <Style Selector="Button.clear">
+      <Setter Property="Background" Value="#0EA5E9" />
+    </Style>
+
+    <Style Selector="Button.hasil">
+      <Setter Property="Background" Value="#0EA5E9" />
+    </Style>
+  </Window.Styles>
+
+  <Grid Margin="20" RowDefinitions="Auto,16,Auto,20,*">
+    <TextBlock Grid.Row="0"
+               Text="Calculator"
+               FontSize="30"
+               FontWeight="Bold"
+               Foreground="#FFFFFF"
+               HorizontalAlignment="Center" />
+
+    <Border Grid.Row="2"
+            Height="92"
+            Margin="5,0"
+            Padding="16"
+            CornerRadius="10"
+            Background="#111C32"
+            BorderBrush="#3B82F6"
+            BorderThickness="2">
+      <TextBlock x:Name="TampilanText"
+                 Text="0"
+                 FontSize="46"
+                 FontWeight="Light"
+                 Foreground="#FFFFFF"
+                 TextTrimming="CharacterEllipsis"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Center" />
+    </Border>
+
+    <Grid Grid.Row="4"
+          RowDefinitions="*,*,*,*,*"
+          ColumnDefinitions="*,*,*,*">
+      <Button Grid.Row="0" Grid.Column="0" Content="7" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="0" Grid.Column="1" Content="8" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="0" Grid.Column="2" Content="9" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="0" Grid.Column="3" Content="÷" Classes="operator" Click="SaatOperatorDiklik" />
+
+      <Button Grid.Row="1" Grid.Column="0" Content="4" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="1" Grid.Column="1" Content="5" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="1" Grid.Column="2" Content="6" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="1" Grid.Column="3" Content="×" Classes="operator" Click="SaatOperatorDiklik" />
+
+      <Button Grid.Row="2" Grid.Column="0" Content="1" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="2" Grid.Column="1" Content="2" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="2" Grid.Column="2" Content="3" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="2" Grid.Column="3" Content="−" Classes="operator" Click="SaatOperatorDiklik" />
+
+      <Button Grid.Row="3" Grid.Column="0" Content="0" Classes="angka" Click="SaatAngkaDiklik" />
+      <Button Grid.Row="3" Grid.Column="1" Content="." Classes="angka" Click="SaatDesimalDiklik" />
+      <Button Grid.Row="3" Grid.Column="2" Content="C" Classes="clear" Click="SaatBersihkanDiklik" />
+      <Button Grid.Row="3" Grid.Column="3" Content="+" Classes="operator" Click="SaatOperatorDiklik" />
+
+      <Button Grid.Row="4"
+              Grid.Column="0"
+              Grid.ColumnSpan="4"
+              Content="="
+              Classes="hasil"
+              Click="SaatSamaDenganDiklik" />
+    </Grid>
+  </Grid>
+</Window>
